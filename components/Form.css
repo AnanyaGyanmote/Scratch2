@@ -1,0 +1,87 @@
+.container-form {
+    left: 12%;
+    margin-top: 5%;
+}
+
+img.logo {
+    width: 25%;
+    border-radius: 20%;
+}
+
+
+/*  buttons */
+
+button {
+    color: white;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 30%;
+    background: #4FA1CF;
+    border: 1px solid rgba(6, 28, 24, 0.36);
+    box-shadow: 0px 4px 14px 4px rgba(9, 189, 157, 0.27);
+    border-radius: 80px;
+    text-align: center;
+    margin-inline: 5%;
+    font-size: large;
+}
+
+.cancle-btn {
+    background: rgb(229, 149, 149);
+}
+
+
+/*  hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* form inputs */
+
+input {
+    width: 85%;
+    background: #FFFFFF;
+    border: 1px solid rgba(101, 169, 233, 0.56);
+    border-radius: 60px;
+    margin: 3%;
+    align-content: center;
+    font-size: large;
+    text-align: center;
+}
+
+
+/*  containers */
+
+.container,
+.container-form,
+.containerlogin {
+    padding: 16px;
+    position: relative;
+    width: 70%;
+    height: 100%;
+    left: 40%;
+    top: 7%;
+    background: #ffffff;
+    border: 1px solid rgba(108, 151, 190, 0.56);
+    box-shadow: 0px 4px 30px 22px rgba(112, 182, 247, 0.48);
+    border-radius: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.gender {
+    flex-direction: row;
+    margin-inline: 30%;
+    display: flex;
+    align-items: center;
+}
+
+input::placeholder {
+    color: rgb(180, 177, 177);
+}
+
+a {
+    color: black;
+    font-size: smaller;
+}
